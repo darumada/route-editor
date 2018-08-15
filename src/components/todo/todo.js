@@ -75,7 +75,7 @@ class Todo extends Component {
         <div className="todo-container">
           <input
             type="text"
-            placeholder="Новая точка маршрута"
+            placeholder="new route"
             onKeyDown={this.onEnter}
             onChange={this.handleChange}
             value={this.state.value}
