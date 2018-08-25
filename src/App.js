@@ -109,7 +109,7 @@ class App extends Component {
         }
       },
       err => {
-        alert('Ошибка');
+        alert('error');
       }
     );
   }
@@ -128,7 +128,7 @@ class App extends Component {
       },
 
       error => {
-        alert('Возникла ошибка: ' + error.message);
+        alert('error: ' + error.message);
         this.updateState('deleteLastRoute');
       }
     );
